@@ -81,4 +81,22 @@
   (println (str "Treasure lat: " lat))
   (println (str "Treasure lng: " lng)))
 
+(defn illustrated-function
+  []
+  (+ 1 304)
+  30
+  "joe")
+
+(defn number-comment
+  [x]
+  (if (> x 6)
+    "Oh my gosh! What a big number!"
+    "That number's OK, I guess"))
+
+(map (fn [name] (str "Hi, " name))
+     ["Darth Vader" "Mr. Magoo"])
+
+(def my-special-multiplier (fn [x] (* x 3)))
+
+
 
