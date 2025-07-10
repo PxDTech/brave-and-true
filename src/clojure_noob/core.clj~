@@ -98,5 +98,12 @@
 
 (def my-special-multiplier (fn [x] (* x 3)))
 
+(defn inc-maker
+  "Create a custom incrementor"
+  [inc-by]
+  #(+ % inc-by))
+
+(def inc3 (inc-maker 3)) 
+
 
 

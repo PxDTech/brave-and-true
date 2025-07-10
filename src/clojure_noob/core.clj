@@ -105,5 +105,8 @@
 
 (def inc3 (inc-maker 3))
 
+(def dalmatian-list
+  ["Pongo" "Perdita" "Puppy 1" "Puppy 2"])
+
 
 
